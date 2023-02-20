@@ -6,7 +6,7 @@ on:
       - main
     paths:
       - '.github/workflows/deploy.yml'
-      - 'WebSite/**'
+      - '**'
   pull_request:
 
 jobs:
