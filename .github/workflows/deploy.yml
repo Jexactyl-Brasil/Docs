@@ -19,7 +19,7 @@ jobs:
           node-version: 16.x
           cache: yarn
       - name: Build website
-        working-directory: docs
+        working-directory: WebSite
         run: |
           yarn install
           yarn build
