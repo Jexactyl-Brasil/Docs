@@ -4,8 +4,7 @@ on:
   push:
     branches: [main]
     paths: 
-      - 'docs/**'
-      - 'versioned_docs/**'
+      - 'Docs/**'
   workflow_dispatch:
 
 jobs:
@@ -19,7 +18,7 @@ jobs:
           node-version: 16.x
           cache: yarn
       - name: Build website
-        working-directory: docs
+        working-directory: Docs
         run: |
           yarn install
           yarn build
