@@ -78,11 +78,11 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Inicio',
+            label: 'Documentação',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/Jexactyl-Brasil/Jexactyl-Brasil',
             label: 'GitHub',
             position: 'right',
           },
@@ -95,13 +95,13 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Documentação',
                 to: '/docs/intro',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Comunidade',
             items: [
               {
                 label: 'Stack Overflow',
@@ -118,7 +118,7 @@ const config = {
             ],
           },
           {
-            title: 'More',
+            title: 'Mais',
             items: [
               {
                 label: 'Blog',
