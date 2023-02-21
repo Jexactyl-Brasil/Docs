@@ -20,4 +20,3 @@ jobs:
           github_token: ${{ secrets.ACCESS_TOKEN }}
           publish_dir: ./docs/build
           publish_branch: gh-pages
-          allow_empty_commit: true
