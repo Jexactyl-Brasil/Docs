@@ -32,7 +32,7 @@ The command also installs all necessary dependencies you need to run Docusaurus.
 
 ## Comece seu site
 
-Run the development server:
+Execute o servidor de desenvolvimento:
 
 ```bash
 cd my-website
