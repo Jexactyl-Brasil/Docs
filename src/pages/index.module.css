@@ -45,6 +45,11 @@
   justify-content: center;
 }
 */
+.nextpanel-sub {
+  color: white;
+  font-family: sans-serif;
+  font-size: 15px;
+}
 .buttons {
   display: flex;
   flex-direction: row;
@@ -57,6 +62,8 @@
 .buttons>div {
   flex: 1 1 auto;
   text-align: center;
+  background: rgb(0, 167, 245);
+  color: white;
 
   margin: 5px;
 }

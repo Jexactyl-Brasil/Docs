@@ -9,7 +9,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'NextPanel ',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Venha ver o Seu painel de uma forma diferente, ja não está cansando do tradutor? NextPanel está aqui para ajuda-lo a escolher seu proximo Painel De jogos.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
