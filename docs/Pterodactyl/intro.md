@@ -1,6 +1,12 @@
-[![Logo Image](https://cdn.pterodactyl.io/logos/new/pterodactyl_logo.png)](https://pterodactyl.io)
+---
+sidebar_position: 1
+---
 
-# Painel Pterodactyl
+# Introdução do Painel
+
+Oque é o Pterodactyl.
+
+[![Logo Image](https://cdn.pterodactyl.io/logos/new/pterodactyl_logo.png)](https://pterodactyl.io)
 
 O Pterodactyl® é um painel de gerenciamento de servidor de jogos gratuito e de código aberto construído com PHP, React e Go. Projetado com segurança
 em mente, o Pterodactyl executa todos os servidores de jogos em contêineres Docker isolados enquanto expõe uma interface bonita e intuitiva

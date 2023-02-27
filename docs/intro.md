@@ -2,11 +2,13 @@
 sidebar_position: 1
 ---
 
-![lOGO](https://user-images.githubusercontent.com/109999325/221442060-0d77c18b-75ed-436a-920a-c8b56cc69a29.gif)
-
 # NextPanel
 
-### Seu próximo Painel está aqui
+Seu próximo Painel está aqui
+
+![lOGO](https://user-images.githubusercontent.com/109999325/221442060-0d77c18b-75ed-436a-920a-c8b56cc69a29.gif)
+
+### Oque Somos?
 - Somos uma equipe organização criada com varios objetivos. Sendo principalmente traduzir alguns projetos para a língua portuguesa.
 
 
@@ -44,8 +46,8 @@ sidebar_position: 1
 
 | Informações |
 |-------------------------------------|
-|O Pterodactyl® é um painel de gerenciamento de servidor de jogos gratuito e de código aberto construído com PHP, React e Go. Projetado com segurança em mente, o Pterodactyl executa todos os servidores de jogos em contêineres Docker isolados enquanto expõe uma interface bonita e intuitiva IU para usuários finais.
-Pare de se contentar com menos. Torne os servidores de jogo um cidadão de primeira classe em sua plataforma.|
+|O Pterodactyl® é um painel de gerenciamento de servidor de jogos gratuito e de código aberto construído com PHP, React e Go. Projetado com segurança em mente, o Pterodactyl executa todos os servidores de jogos em contêineres Docker isolados enquanto expõe uma interface bonita e intuitiva IU para usuários finais.|
+|Pare de se contentar com menos. Torne os servidores de jogo um cidadão de primeira classe em sua plataforma.|
 
 #### Jogos suportados
 

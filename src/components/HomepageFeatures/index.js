@@ -4,6 +4,16 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
+    title: 'Documentações',
+    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    description: (
+      <>
+        Use nossas documentações traduzidas para instalar o seu proximo painel
+        e permitir um melhor entendimento a todos os Brasileiros.
+      </>
+    ),
+  },
+  {
     title: 'Um Pterodactyl Brasileiro',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (

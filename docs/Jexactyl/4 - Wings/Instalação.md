@@ -1,4 +1,4 @@
-# Instalando o Wings
+# Instalando a Wings
 
 Wings é o daemon de controle de servidor de próxima geração da Pterodactyl. Foi reconstruído a partir do
 Ground Up usando o Go e as lições aprendidas com o nosso primeiro Nodejs Daemon.
