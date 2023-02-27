@@ -13,7 +13,7 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <img src="../../img/nextpanel-img-txt.png" height="200" width="350" />
-      <p className="nextpanel-sub">Venha ver o Seu painel de uma forma diferente, 
+      <p className={styles.nextpanel-sub}>Venha ver o Seu painel de uma forma diferente, 
         ja não está cansando do tradutor? 
         NextPanel está aqui para ajuda-lo a escolher seu proximo Painel De jogos.</p>
         <div className={styles.contianer}>
