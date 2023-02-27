@@ -30,7 +30,7 @@ Em seguida, usaremos cURL para baixar o arquivo de lançamento do GitHub
 e extraia-o.
 
 ```bash
-sudo curl -L https://github.com/Jexactyl-Brasil/Jexactyl-Brasil/releases/latest/download/panel.tar.gz | sudo tar -xzv
+sudo curl -L https://github.com/Next-Panel/Jexactyl-BR/releases/latest/download/panel.tar.gz | sudo tar -xzv
 sudo chmod -R 755 storage/* bootstrap/cache # Defina as permissões do servidor corretamente
 ```
 

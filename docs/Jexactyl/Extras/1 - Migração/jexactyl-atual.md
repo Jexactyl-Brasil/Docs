@@ -57,7 +57,7 @@ Depois do renomear, criar o novo diretório e copiar o `.env`,Faremos o download
 
 ```bash
 # Baixe a versão mais recente do Jexactyl-Brasil usando CURL.
-sudo curl -L -o panel.tar.gz https://github.com/Jexactyl-Brasil/Jexactyl-Brasil/releases/latest/download/panel.tar.gz
+sudo curl -L -o panel.tar.gz https://github.com/Next-Panel/Jexactyl-BR/releases/latest/download/panel.tar.gz
 
 # Baixe os arquivos atualizados e exclua o arquivo compactado.
 sudo tar -xzvf panel.tar.gz && rm -f panel.tar.gz

@@ -46,7 +46,7 @@ e sobrescrever os existentes.
 
 ```bash
 # Baixe a versão mais recente do Jexactyl usando CURL.
-sudo curl -L -o panel.tar.gz https://github.com/Jexactyl-Brasil/Jexactyl-Brasil/releases/latest/download/panel.tar.gz
+sudo curl -L -o panel.tar.gz https://github.com/Next-Panel/Jexactyl-BR/releases/latest/download/panel.tar.gz
 
 # Baixe os arquivos atualizados e exclua o arquivo compactado.
 sudo tar -xzvf panel.tar.gz && sudo rm -f panel.tar.gz

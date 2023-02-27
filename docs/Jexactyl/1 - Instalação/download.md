@@ -26,7 +26,7 @@ Então, você pode extraí-lo usando o comando `tar` e atribuir permissões usan
 para os diretórios `storage/*` e `bootstrap/cache` para permitir que o site armazene objetos em cache e carregue mais rápido.
 
 ```bash
-sudo curl -Lo panel.tar.gz https://github.com/Jexactyl-Brasil/Jexactyl-Brasil/releases/latest/download/panel.tar.gz
+sudo curl -Lo panel.tar.gz https://github.com/Next-Panel/Jexactyl-BR/releases/latest/download/panel.tar.gz
 sudo tar -xzvf panel.tar.gz
 sudo chmod -R 755 storage/* bootstrap/cache/
 ```
