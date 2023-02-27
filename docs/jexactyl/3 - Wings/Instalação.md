@@ -95,7 +95,10 @@ Abaixo está um exemplo de como a linha deve ser, _do não copie essa linha text
 GRUB_CMDLINE_LINUX_DEFAULT="swapaccount=1"
 ```
 
-?>Dica:Configuração do GRUB,algumas distribuições Linux podem ignorar `GRUB_CMDLINE_LINUX_DEFAULT`. Portanto, você pode ter que usar "GRUB_CMDLINE_LINUX" em vez disso, caso o padrão não funcione para você.
+:::tip Configuração do GRUB
+Algumas distribuições Linux podem ignorar `GRUB_CMDLINE_LINUX_DEFAULT`.
+Portanto, você pode ter que usar "GRUB_CMDLINE_LINUX" em vez disso, caso o padrão não funcione para você.
+:::
 
 ## Instalando o Wings
 
