@@ -29,4 +29,4 @@ sudo yarn # Installs building dependencies.
 
 ***
 
-Em seguida, consulte nosso guia de [Build](/docs/Jexactyl/6%20-%20Extras/3%20-%20Desenvolvimento/construindo.md) sobre como construir o frontend.
+Em seguida, consulte nosso guia de [Build](/docs/3%20-%20Jexactyl//6%20-%20Extras/3%20-%20Desenvolvimento/construindo.md) sobre como construir o frontend.
