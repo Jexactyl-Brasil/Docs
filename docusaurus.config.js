@@ -78,7 +78,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Documentação',
           },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
@@ -92,46 +92,50 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Documentações',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Introdução NextPanel',
                 to: '/docs/intro',
               },
+              {
+                label: 'Introdução Pterodactyl',
+                to: '/docs/Pterodactyl/intro',
+              },
+              {
+                label: 'Introdução Jexactyl',
+                to: '/docs/Jexactyl/intro',
+              },
             ],
           },
           {
-            title: 'Community',
+            title: 'Comunidade',
             items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://discord.gg/Wf8Eycz4Tq',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'Githubs',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'GitHub da NextPanel',
+                href: 'https://github.com/Next-Panel',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/Next-Panel',
+                label: 'Dev Ashu11-A',
+                href: 'https://github.com/Ashu11-A',
+              },
+              {
+                label: 'Dev Drylian',
+                href: 'https://github.com/drylian',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} NextPanel, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

@@ -4,7 +4,6 @@ sidebar_position: 1
 
 # Introdução do Painel
 
-Oque é o Pterodactyl.
 
 [![Logo Image](https://cdn.pterodactyl.io/logos/new/pterodactyl_logo.png)](https://pterodactyl.io)
 
