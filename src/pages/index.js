@@ -28,7 +28,7 @@ function HomepageHeader() {
             <div>
               <Link
                 className="button button--secondary button--lg"
-                to="/docs/3%20-%20Jexactyl//intro">
+                to="/docs/3%20-%20Jexactyl/intro">
                 Documentação do Jexactyl
               </Link>
             </div>

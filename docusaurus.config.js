@@ -100,11 +100,11 @@ const config = {
               },
               {
                 label: 'Introdução Pterodactyl',
-                to: '/docs/2%20-%20Pterodactyl//intro',
+                to: '/docs/2%20-%20Pterodactyl/intro',
               },
               {
                 label: 'Introdução Jexactyl',
-                to: '/docs/3%20-%20Jexactyl//intro',
+                to: '/docs/3%20-%20Jexactyl/intro',
               },
             ],
           },
