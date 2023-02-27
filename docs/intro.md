@@ -6,7 +6,7 @@ sidebar_position: 1
 
 Seu próximo Painel está aqui
 
-![lOGO](https://user-images.githubusercontent.com/109999325/221442060-0d77c18b-75ed-436a-920a-c8b56cc69a29.gif)
+![lOGO](https://raw.githubusercontent.com/Next-Panel/.github/main/profile/gif/baner.gif)
 
 ### Oque Somos?
 - Somos uma equipe organização criada com varios objetivos. Sendo principalmente traduzir alguns projetos para a língua portuguesa.
