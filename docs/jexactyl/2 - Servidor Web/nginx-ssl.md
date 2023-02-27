@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Nginx com configuração SSL
+# Nginx com SSL
 
 ***
 

@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Configurar SSL com Certbot
+# Configurar SSL
 
 ***
 

@@ -2,7 +2,7 @@
 sidebar_position: 5
 ---
 
-# Apache com configuração SSL
+# Apache com SSL
 
 ***
 
