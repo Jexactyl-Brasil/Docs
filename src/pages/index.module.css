@@ -51,8 +51,6 @@
   font-size: 15px;
 }
 .buttons {
-  background: rgb(0, 167, 245);
-  color: white;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
