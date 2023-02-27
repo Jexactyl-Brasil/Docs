@@ -18,7 +18,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Gosta do Original e quer dar uma melhor visão aos seus clientes?, 
+        Gosta do Original e quer dar uma melhor visão aos seus clientes?,
         Instale ja o painel do pterodactyl de forma rapida e facil com nossas Documentações.
       </>
     ),
@@ -28,14 +28,14 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Quer algo mais elegante e com mais funções? Porém não quer ter dificuldade 
+        Quer algo mais elegante e com mais funções? Porém não quer ter dificuldade
         em entender oque cada uma faz? Instale agora o Jexactyl Traduzido.
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ Svg, title, description }) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">

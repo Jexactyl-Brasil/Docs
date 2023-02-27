@@ -15,22 +15,22 @@ function HomepageHeader() {
         <img src="../../img/logo.svg" height="125" width="125" />
         <h1 className="hero__title">{siteConfig.title}</h1>
         <div className={styles.contianer}>
-        <div className={styles.buttons}>
-          <div>
-            <Link
-              className="button button--secondary button--lg"
-              to="/docs/Jexactyl/intro">
-              Documentação do Pterodactyl
-            </Link>
-          </div>
-          <div>
-            <Link
+          <div className={styles.buttons}>
+            <div>
+              <Link
+                className="button button--secondary button--lg"
+                to="/docs/Jexactyl/intro">
+                Documentação do Pterodactyl
+              </Link>
+            </div>
+            <div>
+              <Link
                 className="button button--secondary button--lg"
                 to="/docs/Pterodactyl/intro">
-              Documentação do Jexactyl
-            </Link>
+                Documentação do Jexactyl
+              </Link>
+            </div>
           </div>
-        </div>
         </div>
       </div>
     </header>
@@ -39,7 +39,7 @@ function HomepageHeader() {
 
 
 export default function Home() {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
       title={`${siteConfig.title}, Seu Proximo Painel Está Aqui!`}

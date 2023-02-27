@@ -34,6 +34,7 @@
     padding: 2rem;
   }
 }
+
 /*
 .contianer {
   display: flex;
@@ -53,7 +54,7 @@
   justify-content: center;
 }
 
-.buttons > div {
+.buttons>div {
   flex: 1 1 auto;
   text-align: center;
 
