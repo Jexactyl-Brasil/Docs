@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Criando arquivos de front-end
 
 ***

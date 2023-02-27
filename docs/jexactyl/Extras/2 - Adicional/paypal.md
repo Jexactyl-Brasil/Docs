@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Aceite pagamentos com PayPal
 
 ***
@@ -48,7 +52,7 @@ nano .env
 
 ?> Certifique-se de que a configuração 'PayPal' esteja definida como 'Habilitado'.
 
-![image](../../public/images/store_admin.png)
+![image](/img/store_admin.png)
 
 ### 7. Teste sua configuração
 

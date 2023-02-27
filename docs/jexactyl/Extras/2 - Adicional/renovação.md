@@ -1,3 +1,7 @@
+---
+sidebar_position: 4
+---
+
 # Configuração do Sistema de Renovação
 
 ***

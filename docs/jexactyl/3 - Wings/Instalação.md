@@ -1,18 +1,10 @@
-## Instalação do Daemon
-
-!> Aviso dos tradutores.
-
-- Este método de instalação foi tirado da documentação oficial do pterodactyl, para permitir os usuários terem a tradução completa tanto do painel, quanto das wings, caso queira usar a documentação oficial e original(está em Ingles) click [Aqui](https://pterodactyl.io/wings/1.0/installing.html).
-
-***
-
 # Instalando o Wings
 
 Wings é o daemon de controle de servidor de próxima geração da Pterodactyl. Foi reconstruído a partir do
 Ground Up usando o Go e as lições aprendidas com o nosso primeiro Nodejs Daemon.
 
-!>Aviso:Você só deve instalar o Wings se estiver executando **Pterodactyl 1.x**. Não instale este software
-para versões anteriores de Pterodactyl.
+:::danger Você só deve instalar o Wings se estiver executando **Pterodactyl 1.x**. Não instale este software para versões anteriores de Pterodactyl.
+:::
 
 
 ## Sistemas suportados
@@ -73,10 +65,11 @@ estão listados abaixo para sistemas comumente suportados.
 - [CentOS](https://docs.docker.com/install/linux/docker-ce/centos/#install-docker-ce)
 - [Debian](https://docs.docker.com/install/linux/docker-ce/debian/#install-docker-ce)
 
-!>Aviso:Verifique seu Kernel
+:::danger Verifique seu Kernel
 Lembre-se de que alguns hosts instalam um kernel modificado que não oferece suporte a recursos importantes do docker. Por favor
 verifique seu kernel executando `uname -r`. Se o seu kernel termina em `-xxxx-grs-ipv6-64` ou `-xxxx-mod-std-ipv6-64` você está
 provavelmente usando um kernel não suportado. Verifique nossas [Modificações do Kernel(Em Ingles atualmente)](https://pterodactyl.io/daemon/0.6/kernel_modifications.html) guia para mais detalhes.
+:::
 
 #### Iniciar o Docker na inicialização
 
@@ -115,9 +108,11 @@ sudo curl -L -o /usr/local/bin/wings "https://github.com/pterodactyl/wings/relea
 sudo chmod u+x /usr/local/bin/wings
 ```
 
-!>Aviso:Servidores OVH/SYS.Se estiver a utilizar um servidor fornecido pela OVH ou SoYouStart, esteja ciente de que o seu espaço em disco principal está provavelmente atribuído a
+:::danger Servidores OVH/SYS.
+Se estiver a utilizar um servidor fornecido pela OVH ou SoYouStart, esteja ciente de que o seu espaço em disco principal está provavelmente atribuído a
 `/home`, e não `/` por padrão. Por favor, considere o uso de `/home/daemon-data` para dados do servidor. Isso pode ser facilmente
 ao criar o node.
+:::
 
 
 ## Configurar
@@ -130,7 +125,9 @@ Alternativamente, você pode clicar no botão Gerar Token, copiar o comando bash
 
 ![imagem de exemplo de configuração de Wings](https://user-images.githubusercontent.com/30575805/208731635-7873f964-fb97-410b-b643-ef6f1104d8d4.png)
 
-!>Aviso:Quando seu Painel estiver usando SSL, as Wings também devem ter uma criada para seu FQDN. Consulte a página de documentação [Configurar SSL](principal/painel/servidores-web/setup-ssl) para saber como criar esses certificados antes de continuar.
+:::danger Quando seu Painel estiver usando SSL
+As Wings também devem ter uma criada para seu FQDN. Consulte a página de documentação [Configurar SSL](principal/painel/servidores-web/setup-ssl) para saber como criar esses certificados antes de continuar.
+:::
 
 ### Iniciando Wings
 
