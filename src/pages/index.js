@@ -19,14 +19,14 @@ function HomepageHeader() {
           <div>
             <Link
               className="button button--secondary button--lg"
-              to="/docs/Jexactyl/intro.md">
+              to="/docs/Jexactyl/intro">
               Documentação do Pterodactyl
             </Link>
           </div>
           <div>
             <Link
                 className="button button--secondary button--lg"
-                to="/docs/Pterodactyl/intro.md">
+                to="/docs/Pterodactyl/intro">
               Documentação do Jexactyl
             </Link>
           </div>
