@@ -19,16 +19,16 @@
 ## Previews
 ![image](https://user-images.githubusercontent.com/30575805/207936437-e9990069-ec34-4273-b5d2-6cdf21ab755b.png)
 ![image](https://user-images.githubusercontent.com/30575805/207936499-25645fff-cdc2-476c-b626-fd75813fbc52.png)
-![image](../../img/new/console.png)
-![image](../../img/new/plugin.png)
+![image](./img/console.png)
+![image](./img/plugin.png)
 ![image](https://user-images.githubusercontent.com/30575805/207936544-7ee143cd-e0e6-4076-929a-cfc97054b33e.png)
 ![image](https://user-images.githubusercontent.com/30575805/207936353-cad5228e-5948-4b5c-8b4d-f1fc5021f806.png)
 
 ## Temas do Administrador
-![tema Padrão](../../img/new/temapadrao.png)
-![tema Minecraft](../../img/new/temaminecraft.png)
-![tema Claro](../../img/new/temaclaro.png)
-![tema Escuro](../../img/new/temaescuro.png)
-![tema Azul](../../img/new/temaazul.png)
+![tema Padrão](./img/temapadrao.png)
+![tema Minecraft](./img/temaminecraft.png)
+![tema Claro](./img/temaclaro.png)
+![tema Escuro](./img/temaescuro.png)
+![tema Azul](./img/temaazul.png)
 
 # Inicie Agora Mesmo sua instalação--->
