@@ -1,4 +1,8 @@
-# Atualizando Jexactyl
+---
+sidebar_position: 3
+---
+
+# Atualizar Jexactyl
 
 ***
 
