@@ -78,7 +78,7 @@ nano .env
 :::info Certifique-se de que a configuração 'Stripe' esteja definida como 'Habilitado'.
 :::
 
-![image](../img/store_admin.png)
+![image](../../img/store_admin.png)
 
 ### 7. Teste sua configuração
 
