@@ -7,7 +7,7 @@ sidebar_position: 3
 ***
 
 > A Jexactyl recomenda enfaticamente que você use SSL para proteger seu site.
-Considere habilitar o SSL seguindo o guia [Configurando o SSL](/docs/jexactyl/2%20-%20Servidor%20Web/setup-ssl.md).
+Considere habilitar o SSL seguindo o guia [Configurando o SSL](/docs/Jexactyl/2%20-%20Servidor%20Web/setup-ssl.md).
 
 ***
 
