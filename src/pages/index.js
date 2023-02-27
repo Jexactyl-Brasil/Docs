@@ -21,7 +21,7 @@ function HomepageHeader() {
             <div>
               <Link
                 className="button button--secondary button--lg"
-                to="/docs/Pterodactyl/intro">
+                to="/docs/2%20-%20Pterodactyl/intro">
                 Documentação do Pterodactyl
               </Link>
             </div>
