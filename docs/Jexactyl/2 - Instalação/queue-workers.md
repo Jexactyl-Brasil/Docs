@@ -13,7 +13,6 @@ Use o comando a baixo e digite 1 para selecionar o editor de texto nano.
 
 ```bash
 sudo crontab -e
-
 ```
 
 Em seguida, cole essa linha para adicionar o Cron de tarefas da jexactyl.
