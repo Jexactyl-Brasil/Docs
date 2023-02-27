@@ -12,16 +12,16 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero baner_only', styles.heroBanner)}>
       <div className="container">
-        <img src="../../img/nextpanel-img-txt.png" height="200" width="350"  className={styles.BannerMobile} />
-      <p style={{ color: "white", fontWeight: "bold", fontSize: "16px", marginTop: "10px" }}>Venha ver o Seu painel de uma forma diferente, 
-        ja não está cansando do tradutor? 
-        NextPanel está aqui para ajuda-lo a escolher seu proximo Painel De jogos.</p>
+        <img src="../../img/nextpanel-img-txt.png" height="200" width="350" className={styles.BannerMobile} />
+        <p style={{ color: "white", fontWeight: "bold", fontSize: "16px", marginTop: "10px" }}>Venha ver o Seu painel de uma forma diferente,
+          ja não está cansando do tradutor?
+          NextPanel está aqui para ajuda-lo a escolher seu proximo Painel De jogos.</p>
         <div className={styles.contianer}>
           <div className={styles.buttons}>
             <div>
               <Link
                 className="button button--secondary button--lg"
-                to="/docs/2%20-%20Pterodactyl/intro">
+                to="/docs/Pterodactyl/intro">
                 Documentação do Pterodactyl
               </Link>
             </div>
