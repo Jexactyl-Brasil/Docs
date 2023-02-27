@@ -1,7 +1,8 @@
 {
-  "label": "Tutorial - Extras",
+  "label": "Pterodactyl",
   "position": 3,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "Aprenda a instalar o painel Pterodactyl traduzido de forma fácil e intuitivo."
   }
 }
