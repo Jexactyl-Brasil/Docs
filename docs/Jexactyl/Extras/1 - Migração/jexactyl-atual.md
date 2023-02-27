@@ -1,8 +1,8 @@
 # Migrar Paineis da Jexactyl e Pterodactyl
 
-!>Aviso dos Tradutores.
-
->Este painel Modifica Arquivos raizes do Jexactyl e do pterodactyl, é fortemente recomendado o uso de um `Database Novo` e Sem arquivos para melhor funcionamento.
+:::danger Aviso dos Tradutores.
+Este painel Modifica Arquivos raizes do Jexactyl e do pterodactyl, é fortemente recomendado o uso de um `Database Novo` e Sem arquivos para melhor funcionamento.
+:::
 
 ***
 

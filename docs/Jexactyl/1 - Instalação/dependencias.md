@@ -29,9 +29,11 @@ Um servidor web ('NGINX' é preferido.)
 
 ## Exemplo de instalação de dependência
 
-!> Seu sistema operacional pode ser diferente do que usamos para esta instalação.
+:::danger
+ Seu sistema operacional pode ser diferente do que usamos para esta instalação.
 Certifique-se de que esses comandos funcionem para você e, se não funcionarem, consulte
 o gerenciador de pacotes do seu sistema operacional para saber como instalar as dependências.
+:::
 
 ```bash
 sudo apt -y install software-properties-common curl apt-transport-https ca-certificates gnupg

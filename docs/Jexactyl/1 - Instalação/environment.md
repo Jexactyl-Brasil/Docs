@@ -26,9 +26,11 @@ sudo composer install --no-dev --optimize-autoloader
 
 Por fim, geraremos um token aleatório que será a chave de criptografia/aplicativo do nosso projeto.
 
-!> Esta chave de criptografia é usada para armazenar dados importantes (como chaves de API).
+:::danger
+Esta chave de criptografia é usada para armazenar dados importantes (como chaves de API).
 NÃO compartilhe esta chave com ninguém - proteja-a como uma senha.
 Se você perder esta chave, todos os dados serão impossíveis de recuperar.
+:::
 
 ```bash
 sudo php artisan key:generate --force

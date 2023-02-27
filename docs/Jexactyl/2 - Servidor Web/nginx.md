@@ -24,10 +24,12 @@ Feito isso, podemos fazer nossa configuração para o Jexactyl rodar.
 
 ### Criar arquivo de configuração
 
-!> Certifique-se de substituir `<domain>` pelo seu próprio domínio neste arquivo de configuração.
+:::danger
+Certifique-se de substituir `<domain>` pelo seu próprio domínio neste arquivo de configuração.
 Observe também que esta configuração é para NGINX com SSL ativado.
 Se você deseja usar o Apache como servidor web ou não deseja usar SSL, consulte
 às instruções do outro servidor web.
+:::
 
 Faça um arquivo chamado `panel.conf` em `/etc/nginx/sites-available` e insira o seguinte:
 

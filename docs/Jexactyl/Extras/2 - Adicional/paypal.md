@@ -9,8 +9,10 @@ sidebar_position: 2
 Este guia mostrará como começar facilmente a usar o PayPal com Jexactyl
 para processar compras a crédito.
 
-!> Este sistema foi implementado na `v3.1.0`. Verifique se você está executando esta versão
+:::danger
+Este sistema foi implementado na `v3.1.0`. Verifique se você está executando esta versão
 ou mais recente para usar o sistema PayPal.
+:::
 
 ***
 
@@ -26,7 +28,9 @@ para uso com Jexactyl.
 ![image](https://www.knowband.com/blog/wp-content/uploads/2019/02/2.gif)
 
 ### 2. Vá para o painel e crie um novo aplicativo
-!> Certifique-se de que a alternância na parte superior da página esteja definida para o modo AO VIVO, não Sandbox.
+:::danger
+Certifique-se de que a alternância na parte superior da página esteja definida para o modo AO VIVO, não Sandbox.
+:::
 
 ![image](https://www.knowband.com/blog/wp-content/uploads/2019/02/5.png)
 

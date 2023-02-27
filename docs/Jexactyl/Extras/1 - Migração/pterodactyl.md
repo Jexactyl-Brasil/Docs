@@ -1,16 +1,18 @@
 # Migrar do Pterodactyl v1.x
 
-!>Aviso dos Tradutores.
-
->Este painel Modifica Arquivos raizes do Jexactyl e do pterodactyl, é fortemente recomendado o uso de um database Novo e Sem arquivos para melhor funcionamento.
+:::danger Aviso dos Tradutores.
+Este painel Modifica Arquivos raizes do Jexactyl e do pterodactyl, é fortemente recomendado o uso de um database Novo e Sem arquivos para melhor funcionamento.
+:::
 
 ***
 
 Usando este guia, você poderá atualizar para Jexactyl de Pterodactyl v1.x.
 
-!> O Pterodactyl v0.7 é EOL (fim da vida útil) e não é suportado para migração pelo Jexactyl.
+:::danger
+O Pterodactyl v0.7 é EOL (fim da vida útil) e não é suportado para migração pelo Jexactyl.
 Se você estiver executando a v0.7, atualize do Pterodactyl v0.7 para o Pterodactyl v1.0 antes
 seguindo este guia de migração.
+:::
 
 ***
 

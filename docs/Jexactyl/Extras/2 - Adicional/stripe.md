@@ -9,8 +9,10 @@ sidebar_position: 3
 Este guia mostrará como começar facilmente a usar o Stripe com Jexactyl
 para processar compras a crédito.
 
-!> Este sistema foi implementado na `v3.2.0`. Verifique se você está executando esta versão
+:::danger
+Este sistema foi implementado na `v3.2.0`. Verifique se você está executando esta versão
 ou mais recente para usar o sistema Stripe.
+:::
 
 ***
 

@@ -6,7 +6,9 @@ sidebar_position: 6
 
 ***
 
-!> This is not recommended for production usage, whatsoever, it is possible to do if you have access to the DirectAdmin directory via SSH. It also requires some basic understanding of Linux commands.
+:::danger
+This is not recommended for production usage, whatsoever, it is possible to do if you have access to the DirectAdmin directory via SSH. It also requires some basic understanding of Linux commands.
+:::danger
 
 :::info
 Do note, it'll reset the file once you add something, such as a subdomain, etc.
