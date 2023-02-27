@@ -129,7 +129,7 @@ Alternativamente, você pode clicar no botão Gerar Token, copiar o comando bash
 ![imagem de exemplo de configuração de Wings](https://user-images.githubusercontent.com/30575805/208731635-7873f964-fb97-410b-b643-ef6f1104d8d4.png)
 
 :::danger Quando seu Painel estiver usando SSL
-As Wings também devem ter uma criada para seu FQDN. Consulte a página de documentação [Configurar SSL](/docs/Jexactyl/2%20-%20Servidor%20Web/setup-ssl.md) para saber como criar esses certificados antes de continuar.
+As Wings também devem ter uma criada para seu FQDN. Consulte a página de documentação [Configurar SSL](/docs/Jexactyl/3%20-%20Servidor%20Web/setup-ssl.md) para saber como criar esses certificados antes de continuar.
 :::
 
 ### Iniciando Wings
