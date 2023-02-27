@@ -9,7 +9,7 @@ sidebar_position: 2
 ### Criar diretório
 
 O primeiro passo neste processo é criar a pasta onde o
-panel será executado e, em seguida, nos moveremos para a pasta recém-criada.
+painel será mantido e executado, em seguida, nos moveremos para a pasta recém-criada.
 Abaixo está um exemplo de como realizar esta operação.
 
 ```bash
