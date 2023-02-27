@@ -19,7 +19,8 @@ ou mais recente para usar o sistema Stripe.
 Para processar pagamentos via Stripe, você precisará primeiro
 crie uma conta e gere uma chave de API, bem como um segredo do webhook.
 
-?> Registre uma conta no Stripe em https://stripe.com para começar.
+:::info Registre uma conta no Stripe em https://stripe.com para começar.
+:::
 
 ***
 
@@ -72,7 +73,8 @@ nano .env
 
 ### 6. Ative o gateway Stripe nas configurações
 
-?> Certifique-se de que a configuração 'Stripe' esteja definida como 'Habilitado'.
+:::info Certifique-se de que a configuração 'Stripe' esteja definida como 'Habilitado'.
+:::
 
 ![image](/img/store_admin.png)
 
@@ -81,4 +83,5 @@ nano .env
 Vá até a Loja Jexactyl e clique na guia 'Carteira'. Quando estiver lá, tente comprar créditos `x` com o Stripe.
 Se a página redirecionar para um portal de compras Stripe, parabéns! Você configurou e configurou com sucesso o Stripe.
 
-?> Se você tiver problemas ao começar a usar o Stripe, informe-nos no nosso [Discord](https://discord.gg/8r7n7mU33R)
+:::info Se você tiver problemas ao começar a usar o Stripe, informe-nos no nosso [Discord](https://discord.gg/8r7n7mU33R)
+:::

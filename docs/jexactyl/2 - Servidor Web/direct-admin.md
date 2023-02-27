@@ -8,7 +8,9 @@ sidebar_position: 6
 
 !> This is not recommended for production usage, whatsoever, it is possible to do if you have access to the DirectAdmin directory via SSH. It also requires some basic understanding of Linux commands.
 
-?> Do note, it'll reset the file once you add something, such as a subdomain, etc.
+:::info
+Do note, it'll reset the file once you add something, such as a subdomain, etc.
+:::info
 
 ### Getting everything ready
 
@@ -46,6 +48,7 @@ systemctl restart openlitespeed
 ```
 and you should be ready-to-go. This fixes the 404 issues after installing it correctly.
 
-?>
+:::info
 Congrats! Jexactyl is installed and should be functioning normally.
 If you encounter any issues, please let us know on our [Discord](https://discord.com/invite/qttGR4Z5Pk).
+:::

@@ -28,7 +28,8 @@ sudo mysqldump -u root -p panel > /var/www/jexactyl-backup/panel.sql
 
 ### Marcar painel como indisponível
 
-?> Certifique-se de estar no diretório `/var/www/jexactyl` antes de continuar.
+:::info Certifique-se de estar no diretório `/var/www/jexactyl` antes de continuar.
+:::
 
 Enquanto a migração ocorre, colocaremos o painel em um estado "indisponível" para que os usuários não possam
 acessar a interface do usuário ou API. Podemos fazer isso executando o seguinte:
@@ -129,6 +130,7 @@ Agora que a migração foi concluída, você pode colocar o Painel novamente onl
 sudo php artisan up
 ```
 
-?>
+:::info
 Parabéns! Você migrou para Jexactyl e tudo deve estar funcionando normalmente.
 Se você encontrar algum problema, informe-nos em nosso [Discord](https://discord.gg/8r7n7mU33R).
+:::

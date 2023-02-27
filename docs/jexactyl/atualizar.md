@@ -10,9 +10,9 @@ A atualização do Jexactyl mantém seu sistema estável, seguro e permite
 seus usuários/administradores experimentem novos recursos mais rapidamente. Usar
 o seguinte guia abaixo como referência para atualizar o Jexactyl.
 
-?>
+:::info
 Faça um backup de sua instalação antes de continuar.
-
+:::
 ***
 
 ### Modo de manutenção
@@ -83,5 +83,7 @@ sudo systemctl restart panel.service # Replace 'panel' with 'pteroq' if you have
 sudo php artisan up
 ```
 
-?> Algum problema? Entre em contato conosco em [Discord](https://discord.gg/8r7n7mU33R).
+:::info
+Algum problema? Entre em contato conosco em [Discord](https://discord.gg/8r7n7mU33R).
+:::
 
