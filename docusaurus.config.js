@@ -66,7 +66,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/nextpanel-social-card.png',
       navbar: {
         title: 'NextPanel',
         logo: {
@@ -135,7 +135,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} NextPanel, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} NextPanel, Inc.`,
       },
       prism: {
         theme: lightCodeTheme,
