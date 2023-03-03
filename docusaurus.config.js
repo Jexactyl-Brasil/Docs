@@ -66,7 +66,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/nextpanel-social-card.png',
+      image: 'img/nextpanel-cartao-social.png',
       navbar: {
         title: 'NextPanel',
         logo: {
