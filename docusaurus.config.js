@@ -80,11 +80,40 @@ const config = {
             position: 'left',
             label: 'Documentação',
           },
-          { to: '/blog', label: 'Blog', position: 'left' },
+          {
+            type: 'docsVersionDropdown',
+            position: 'right',
+            dropdownActiveClassDisabled: true,
+            dropdownItemsAfter: [
+              {
+                type: 'html',
+                className: 'dropdown-archived-versions',
+                value: '<b>Demostrações dos Paineis</b>',
+              },
+              {
+                type: 'html',
+                value: '<hr class="dropdown-separator">',
+              },
+              {
+                href: 'https://jex.nextpanel.com.br',
+                label: 'Demo Jexactyl',
+              },
+              {
+                href: 'https://ptero.nextpanel.com.br',
+                label: 'Demo Pterodactyl',
+              },
+            ],
+          },
           {
             href: 'https://github.com/Next-Panel',
             label: 'GitHub',
             position: 'right',
+          },
+          {
+            href: 'https://github.com/Next-Panel',
+            position: 'right',
+            className: 'header-github-link',
+            'aria-label': 'GitHub',
           },
         ],
       },
