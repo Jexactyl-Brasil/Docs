@@ -7,7 +7,7 @@ sidebar_position: 3
 ***
 
 > A Pterodactyl recomenda enfaticamente que você use SSL para proteger seu site.
-Considere habilitar o SSL seguindo o guia [Configurando o SSL](/docs/3%20-%20Pterodactyl/3%20-%20Servidor%20Web/setup-ssl.md).
+Considere habilitar o SSL seguindo o guia [Configurando o SSL](/docs/2%20-%20Pterodactyl/3%20-%20Servidor%20Web/setup-ssl.md).
 
 ***
 

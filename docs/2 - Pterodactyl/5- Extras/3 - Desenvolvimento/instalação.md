@@ -29,4 +29,4 @@ sudo yarn # Installs building dependencies.
 
 ***
 
-Em seguida, consulte nosso guia de [Build](/docs/3%20-%20Pterodactyl/5%20-%20Extras/3%20-%20Desenvolvimento/construindo.md) sobre como construir o frontend.
+Em seguida, consulte nosso guia de [Build](/docs/2%20-%20Pterodactyl/5%20-%20Extras/3%20-%20Desenvolvimento/construindo.md) sobre como construir o frontend.
