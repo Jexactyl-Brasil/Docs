@@ -81,22 +81,19 @@ const config = {
             label: 'Documentação',
           },
           {
-            type: 'CustomDropdown',
-            position: 'right',
-            dropdownActiveClassDisabled: true,
-            dropdownItemsAfter: [
+            type: 'dropdown',
+            label: 'Demostrações',
+            position: 'left',
+            items: [
               {
-                type: 'html',
-                value: '<hr class="dropdown-separator">',
+                href: 'https://ptero.nextpanel.com.br',
+                label: 'Demo Pterodactyl',
               },
               {
                 href: 'https://jex.nextpanel.com.br',
                 label: 'Demo Jexactyl',
               },
-              {
-                href: 'https://ptero.nextpanel.com.br',
-                label: 'Demo Pterodactyl',
-              },
+              // ... more items
             ],
           },
           {
