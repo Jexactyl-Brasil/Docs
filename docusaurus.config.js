@@ -81,7 +81,7 @@ const config = {
             label: 'Documentação',
           },
           {
-            type: 'docsVersionDropdown',
+            type: 'CustomDropdown',
             position: 'right',
             dropdownActiveClassDisabled: true,
             dropdownItemsAfter: [
