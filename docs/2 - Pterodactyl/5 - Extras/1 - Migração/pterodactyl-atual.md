@@ -1,6 +1,6 @@
 # Migrar Paineis da Pterodactyl
 
-:::Atenção Aviso dos Tradutores.
+:::danger Aviso dos Tradutores.
 Este painel Modifica Arquivos raizes do Pterodactyl e do pterodactyl, é fortemente recomendado o uso de um `Database Novo` e Sem arquivos para melhor funcionamento.
 :::
 

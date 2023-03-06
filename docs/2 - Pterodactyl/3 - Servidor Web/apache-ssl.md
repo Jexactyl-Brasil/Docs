@@ -79,7 +79,7 @@ Por fim, reiniciaremos o Apache para colocar o Pterodactyl online.
 systemctl restart apache2
 ```
 
-:::informação
+:::info
 Parabéns! Pterodactyl está instalado e deve estar funcionando normalmente.
 Se você encontrar algum problema, informe-nos em nosso [Discord](https://discord.gg/8r7n7mU33R).
 :::
