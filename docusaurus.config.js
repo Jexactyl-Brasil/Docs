@@ -87,11 +87,6 @@ const config = {
             dropdownItemsAfter: [
               {
                 type: 'html',
-                className: 'dropdown-archived-versions',
-                value: '<b>Demostrações dos Paineis</b>',
-              },
-              {
-                type: 'html',
                 value: '<hr class="dropdown-separator">',
               },
               {
@@ -103,11 +98,6 @@ const config = {
                 label: 'Demo Pterodactyl',
               },
             ],
-          },
-          {
-            href: 'https://github.com/Next-Panel',
-            label: 'GitHub',
-            position: 'right',
           },
           {
             href: 'https://github.com/Next-Panel',
@@ -164,7 +154,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} NextPanel, Inc.`,
+        copyright: `Copyright © ${new Date().getFullYear()} NextPanel, Inc. buildado por Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

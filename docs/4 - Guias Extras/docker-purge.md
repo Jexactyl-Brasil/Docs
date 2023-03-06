@@ -7,8 +7,6 @@ Um Guia de Consulta Rápida do Docker
 
 ## Como Remover Imagens Docker, Contêineres e Volumes
 
-Um Guia de Consulta Rápida do Docker
-
 ## introdução do docker
 
 O Docker facilita o agrupamento de suas aplicações e serviços em contêineres de forma que você possa executá-los em qualquer lugar. Ao trabalhar com o Docker, no entanto, também é fácil acumular um número excessivo de imagens, contêineres e volumes de dados não utilizados que atrapalham a saída e consomem espaço em disco.
