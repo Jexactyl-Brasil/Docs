@@ -118,7 +118,7 @@ Agora que a migração foi concluída, você pode colocar o Painel novamente onl
 sudo php artisan up
 ```
 
-:::info
-Parabéns! Você migrou para Pterodactyl-BR e tudo deve estar funcionando normalmente.
+:::info Parabéns!
+Você migrou para Pterodactyl-BR e tudo deve estar funcionando normalmente.
 Se você encontrar algum problema, informe-nos em nosso [Discord](https://discord.gg/8r7n7mU33R).
 :::

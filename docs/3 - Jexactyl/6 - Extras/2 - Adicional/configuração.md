@@ -41,7 +41,7 @@ para Discórdia. Certifique-se de ativar o módulo de registro, caso contrário,
 Experimente e tente fazer login via Discord. Se você encontrar um erro como `invalid_redirect_uri`, consulte
 etapa 3 novamente e certifique-se de que suas configurações estejam 100% corretas e válidas.
 
-:::info
-parabéns! O Jexactyl Discord Auth deve estar funcionando normalmente.
+:::info Parabéns!
+O Jexactyl Discord Auth deve estar funcionando normalmente.
 Se você encontrar algum problema, informe-nos em nosso [Discord](https://discord.gg/8r7n7mU33R).
 :::

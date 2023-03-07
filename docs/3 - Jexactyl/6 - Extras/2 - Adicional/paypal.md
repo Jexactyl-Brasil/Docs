@@ -54,7 +54,8 @@ nano .env
 
 ### 6. Ative o gateway do PayPal nas configurações
 
-:::info Certifique-se de que a configuração 'PayPal' esteja definida como 'Habilitado'.
+:::info Informação
+Certifique-se de que a configuração 'PayPal' esteja definida como 'Habilitado'.
 :::
 
 ![image](../../img/store_admin.png)
@@ -64,5 +65,6 @@ nano .env
 Vá até a Jexactyl Storefront e clique na guia 'Carteira'. Quando estiver lá, tente comprar créditos `x` com o PayPal.
 Se a página redirecionar para um portal de compras do PayPal, parabéns! Você configurou e configurou com sucesso o PayPal.
 
-:::info Se você tiver problemas ao começar a usar o PayPal, informe-nos no nosso [Discord](https://discord.gg/8r7n7mU33R)
+:::info Informação
+Se você tiver problemas ao começar a usar o PayPal, informe-nos no nosso [Discord](https://discord.gg/8r7n7mU33R)
 :::

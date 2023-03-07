@@ -38,7 +38,7 @@ Após usar o ``docker system prune -a`` voce deve reiniciar seu computador para 
 sudo reboot
 ```
 
-:::info
-Parabéns! Voce Limpou o seu docker, seu painel deve estar mais leve agora.
+:::info Parabéns!
+Voce Limpou o seu docker, seu painel deve estar mais leve agora.
 Se você encontrar algum problema, informe-nos em nosso [Discord](https://discord.gg/8r7n7mU33R).
 :::

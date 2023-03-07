@@ -112,7 +112,7 @@ Por fim, podemos reiniciar o processo do servidor NGINX para disponibilizar noss
 systemctl restart nginx
 ```
 
-:::info
-Parabéns! Jexactyl está instalado e deve estar funcionando normalmente.
+:::info Parabéns! 
+Jexactyl está instalado e deve estar funcionando normalmente.
 Se você encontrar algum problema, informe-nos em nosso [Discord](https://discord.gg/8r7n7mU33R).
 :::

@@ -17,7 +17,7 @@ Em seguida, cole esta linha e saia depois:
 0 0 * * * php /var/www/jexactyl/artisan p:schedule:renewal >> /dev/null 2>&1
 ```
 
-:::info
-Parabéns! As renovações foram configuradas e devem estar funcionando normalmente.
+:::info Parabéns!
+As renovações foram configuradas e devem estar funcionando normalmente.
 Se você encontrar algum problema, por favor, deixe-nos saber em nosso [Discord](https://discord.gg/8r7n7mU33R).
 :::
