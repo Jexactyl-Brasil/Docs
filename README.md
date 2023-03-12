@@ -1,5 +1,5 @@
 # Website - NextPanel
-[![Logo Image](https://raw.githubusercontent.com/Next-Panel/Docs/main/static/img/baner.png)](https://jexactylbrasil.ml)
+[![Logo Image](https://raw.githubusercontent.com/Next-Panel/Docs/main/static/img/baner.png)](https://nextpanel.com.br/)
 
 [![CodeFactor](https://www.codefactor.io/repository/github/next-panel/docs/badge?style=for-the-badge)](https://www.codefactor.io/repository/github/next-panel/docs)
 ![Deploy](https://img.shields.io/github/actions/workflow/status/Next-Panel/Docs/deploy.yml?style=for-the-badge)
