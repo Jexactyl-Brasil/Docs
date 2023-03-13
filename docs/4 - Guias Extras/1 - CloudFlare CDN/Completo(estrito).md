@@ -49,12 +49,12 @@ Após isso a configuração basica está feita, Selecione Qual Tipo de Servidor 
 
 #### Configurar Wings
 
-[Configurar as Wings](./1%20-%20CloudFlare%20CDN/wings-ssl-tls.md)
+[Configurar as Wings](/docs/4%20-%20Guias%20Extras/1%20-%20CloudFlare%20CDN/wings-ssl-tls.md)
 
 #### Se for Nginx
 
-[Configurar o Nginx](./1%20-%20CloudFlare%20CDN/3%20-%20Servidor%20Web/nginx-ssl.md)
+[Configurar o Nginx](/docs/4%20-%20Guias%20Extras/1%20-%20CloudFlare%20CDN/3%20-%20Servidor%20Web/nginx-ssl.md)
 
 #### Se for Apache
 
-[Configurar o Apache](./1%20-%20CloudFlare%20CDN/3%20-%20Servidor%20Web/apache-ssl.md)
+[Configurar o Apache](/docs/4%20-%20Guias%20Extras/1%20-%20CloudFlare%20CDN/3%20-%20Servidor%20Web/apache-ssl.md)
