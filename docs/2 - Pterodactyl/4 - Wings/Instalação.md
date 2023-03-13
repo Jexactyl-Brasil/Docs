@@ -126,7 +126,7 @@ Depois de criar um nodes, clique nele e haverá uma guia chamada Configuração.
 
 Alternativamente, você pode clicar no botão Gerar Token, copiar o comando bash e colá-lo em seu terminal(em alguns casos se isso não funcionar use o metodo normal).
 
-!![imagem de exemplo de configuração de Wings](https://user-images.githubusercontent.com/30575805/208731635-7873f964-fb97-410b-b643-ef6f1104d8d4.png)
+![imagem de exemplo de configuração de Wings](https://user-images.githubusercontent.com/30575805/208731635-7873f964-fb97-410b-b643-ef6f1104d8d4.png)
 
 :::danger Quando seu Painel estiver usando SSL
 As Wings também devem ter uma criada para seu FQDN. Consulte a página de documentação [Configurar SSL](/docs/2%20-%20Pterodactyl/3%20-%20Servidor%20Web/setup-ssl.md) para saber como criar esses certificados antes de continuar.
@@ -179,6 +179,6 @@ sudo systemctl enable --now wings
 
 A alocação é uma combinação de IP e Porta que você pode atribuir a um servidor. Cada servidor criado deve ter pelo menos uma alocação. A alocação seria o endereço IP da sua interface de rede. Em alguns casos, como quando atrás do NAT, seria o IP interno. Para criar novas alocações, vá para Nodes > seu node > Alocação.
 
-!![imagem de exemplo de alocações de node](https://user-images.githubusercontent.com/30575805/208731965-a044d57c-d421-47f0-8a69-02217b23c2b0.png)
+![imagem de exemplo de alocações de node](https://user-images.githubusercontent.com/30575805/208731965-a044d57c-d421-47f0-8a69-02217b23c2b0.png)
 
 Digite `hostname -I | awk '{print $1}'` para encontrar o IP a ser usado para a alocação. Alternativamente, você pode digitar `ip addr | grep "inet "` para ver todas as suas interfaces disponíveis e endereços IP. Não use 127.0.0.1 para alocações.

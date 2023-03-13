@@ -24,21 +24,21 @@ para uso com Jexactyl.
 ***
 
 ### 1. Faça login no console do desenvolvedor do PayPal
-!![image](https://www.knowband.com/blog/wp-content/uploads/2019/02/Paypal-login-PayPal-client-Id.png)
-!![image](https://www.knowband.com/blog/wp-content/uploads/2019/02/2.gif)
+![image](https://www.knowband.com/blog/wp-content/uploads/2019/02/Paypal-login-PayPal-client-Id.png)
+![image](https://www.knowband.com/blog/wp-content/uploads/2019/02/2.gif)
 
 ### 2. Vá para o painel e crie um novo aplicativo
 :::danger
 Certifique-se de que a alternância na parte superior da página esteja definida para o modo AO VIVO, não Sandbox.
 :::
 
-!![image](https://www.knowband.com/blog/wp-content/uploads/2019/02/5.png)
+![image](https://www.knowband.com/blog/wp-content/uploads/2019/02/5.png)
 
 ### 3. Crie seu aplicativo do PayPal
-!![image](https://www.knowband.com/blog/wp-content/uploads/2019/02/6.png)
+![image](https://www.knowband.com/blog/wp-content/uploads/2019/02/6.png)
 
 ### 4. Obtenha o ID e o segredo do cliente
-!![image](https://www.knowband.com/blog/wp-content/uploads/2019/02/2021-04-21.gif)
+![image](https://www.knowband.com/blog/wp-content/uploads/2019/02/2021-04-21.gif)
 
 ***
 
@@ -58,7 +58,7 @@ nano .env
 Certifique-se de que a configuração 'PayPal' esteja definida como 'Habilitado'.
 :::
 
-!![image](../../img/store_admin.png)
+![image](../../img/store_admin.png)
 
 ### 7. Teste sua configuração
 

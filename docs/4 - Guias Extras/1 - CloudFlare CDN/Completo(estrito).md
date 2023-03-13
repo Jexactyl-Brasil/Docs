@@ -10,13 +10,13 @@ sidebar_position: 2
 
 Acesse o painel do CloudFlare e adicione seu domínio ao seu projeto. Certifique-se de que o ícone de nuvem esteja laranja para que o tráfego seja roteado por meio do CloudFlare.
 
-!!![imagem](./img/dns_proxied.png)
+![imagem](./img/dns_proxied.png)
 
 Clique na guia "SSL/TLS" no painel do CloudFlare e selecione "Full (strict)" como o nível de segurança.
 
-!![imagem](./img/ssl-tls.png)
+![imagem](./img/ssl-tls.png)
 
-!![imagem](./img/completo-estrito.png)
+![imagem](./img/completo-estrito.png)
 
 Faça o download do certificado SSL do CloudFlare. Para fazer isso, clique em "Origin Server" na seção "Origin Certificates" e selecione "Generate Certificate". Siga as instruções para gerar o certificado SSL.
 

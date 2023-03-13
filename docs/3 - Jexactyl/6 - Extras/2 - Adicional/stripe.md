@@ -31,14 +31,14 @@ Registre uma conta no Stripe em https://stripe.com para começar.
 
 Uma vez logado e configurado, você deve estar em uma página que se parece com esta:
 
-!![image](../../img/stripe-dashboard.jpg)
+![image](../../img/stripe-dashboard.jpg)
 
 ### 2. Gere uma chave de API
 
 Clique na guia `Desenvolvedores` à direita da tela. Em seguida, na barra lateral,
 vá para 'chaves de API' e gere uma nova chave de API.
 
-!![image](../../img/stripe-apikey.jpg)
+![image](../../img/stripe-apikey.jpg)
 
 ### 3. Criar Webhook
 
@@ -46,21 +46,21 @@ Depois de criar a chave de API, você precisará criar um `webhook` que irá
 permitir que eventos Stripe sejam processados via Jexactyl. Vá para 'Webhooks' na barra lateral
 e gerar um novo webhook.
 
-!![image](../../img/stripe-webhook.png)
+![image](../../img/stripe-webhook.png)
 
 No campo `Endpoint URL` digite: `https://<your.panel.tld>/stripe/listen`.
 
 Em seguida, adicione os seguintes eventos:
 
-!![image](../../img/stripe-perms.jpg)
+![image](../../img/stripe-perms.jpg)
 
 ### 4. Copie as chaves geradas
 
 Depois de fazer isso, copie o segredo do webhook e a chave da API,
 para que possamos colocá-los no arquivo de configuração .env.
 
-!![image](../../img/stripe-webhook-secret.jpg)
-!![image](../../img/stripe-api-secret.jpg)
+![image](../../img/stripe-webhook-secret.jpg)
+![image](../../img/stripe-api-secret.jpg)
 
 ***
 
@@ -80,7 +80,7 @@ nano .env
 Certifique-se de que a configuração 'Stripe' esteja definida como 'Habilitado'.
 :::
 
-!![image](../../img/store_admin.png)
+![image](../../img/store_admin.png)
 
 ### 7. Teste sua configuração
 
