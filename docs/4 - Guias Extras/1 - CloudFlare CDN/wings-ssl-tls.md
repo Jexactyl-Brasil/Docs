@@ -7,7 +7,7 @@ sidebar_position: 2
 ## Configurar o sistema de segurança da CloudFlare SSL/TLS para as Wings
 
 :::danger AVISO
-Isto é uma continuação do [CloudFlare SSL/TLS](/docs/4%20-%20Guias%20Extras/1%20-%20CloudFlare%20CDN/Completo(estrito).md), Configure ele primeiro antes de seguir com essa documentação, caso ja tenha feito então pode ignorar esse aviso.
+Isto é uma continuação do [CloudFlare SSL/TLS](./1%20-%20CloudFlare%20CDN/Completo(estrito).md), Configure ele primeiro antes de seguir com essa documentação, caso ja tenha feito então pode ignorar esse aviso.
 :::
 
 :::danger AVISO 2
@@ -25,15 +25,54 @@ Esta documentação é uma continuação da Instalação das [Wings](/docs/2%20-
 :::
 
 
-Após ja ter um node, clique nele e haverá uma guia chamada Definições. Edite as configurações marcadas na Imagem a baixo.
+Após ja ter um node, clique nele e haverá uma guia chamada Definições. Edite as configurações marcadas na Imagem a baixo. E Depois Salve as configurações.
+
+![Definições Node](./img/definicoes-node.png)
+
+![Node Configurações](./img/node-config.png)
+
+##### Porta do Daemon
+
+Altere a porta do daemon para "8433", a porta do Proxy da CloudFlare.
+
+##### Comunicar por SSL
+
+Deixe ativado essa função pois usaremos o certificado criado anteriormente.
+
+##### Serviços de CDN
+
+Isto não deve ser ativado, pois usaremos certificado do CloudFlare.
 
 
+#### Configurando no Terminal
+
+Para Iniciar, remova o antigo "config.yml"
+
+```bash
+rm /etc/pterodactyl/config.yml
+```
+
+Depois Salve e depois click em "Configuração", Copie e edite o diretório do certificado "cert:" e "key:" para o diretório do certificado do CloudFlare.
+
+```bash
+cert: /certificados/cert.pem
+key: /certificados/key.pem
+```
 
 
+Digite no terminal o Seguinte Nano para criar a Nova "config.yml" em "/etc/pterodactyl" e cole o texto editado.
 
-`config.yml` em `/etc/pterodactyl` e salve-o.
+:::danger Aviso
+O Botão "Gerar Token" não funciona nesse caso, faça isso manualmente
+:::
 
-Alternativamente, você pode clicar no botão Gerar Token, copiar o comando bash e colá-lo em seu terminal(em alguns casos se isso não funcionar use o metodo normal).
+```bash
+nano /etc/pterodactyl/config.yml
+```
+
+:::danger Aviso
+O Botão "Gerar Token" não funciona nesse caso, faça isso manualmente
+:::
 
 ### Iniciando Wings
 
@@ -43,4 +82,13 @@ Para iniciar o Wings, basta executar o comando abaixo, que o iniciará em um mod
 sudo wings --debug
 ```
 
-Opcionalmente, você pode adicionar o sinalizador `--debug` para executar o Wings no modo de depuração.
+Após Confirmar que está tudo certo com as wings, Digite o comando a baixo para reiniciar elas completamente.
+
+```bash
+systemctl restart wings
+```
+
+:::sucess Parabéns!
+Agora seu Painel possue a Segurança do CloudFlare nas Wings.
+Caso tenha encontrado algum Problema entre em contato no nosso [Discord](https://discord.gg/8r7n7mU33R).
+:::
