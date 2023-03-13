@@ -7,7 +7,7 @@ sidebar_position: 2
 ## Configurar o sistema de segurança da CloudFlare SSL/TLS para as Wings
 
 :::danger AVISO
-Isto é uma continuação do [CloudFlare SSL/TLS](/docs/4%20-%20Guias%20Extras/1%20-%20CloudFlare%20CDN/Completo(estrito).md), Configure ele primeiro antes de seguir com essa documentação, caso ja tenha feito então pode ignorar esse aviso.
+Isto é uma continuação do [CloudFlare SSL/TLS](/docs/4%20-%20Guias%20Extras/1%20-%20CloudFlare%20CDN/completo-estrito.md), Configure ele primeiro antes de seguir com essa documentação, caso ja tenha feito então pode ignorar esse aviso.
 :::
 
 :::danger AVISO 2

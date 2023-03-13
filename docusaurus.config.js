@@ -23,7 +23,7 @@ const config = {
   organizationName: 'Next-Panel', // Usually your GitHub org/user name.
   projectName: 'Docs', // Usually your repo name.
 
-  onBrokenLinks: 'warn',
+  onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internalization, you can use this field to set useful
