@@ -21,12 +21,6 @@ Em seguida, cole essa linha para adicionar o Cron de tarefas da pterodactyl.
 * * * * * php /var/www/pterodactyl/artisan schedule:run >> /dev/null 2>&1
 ```
 
-E por ultimo, cole essa linha para adicionar o Cron de Renovações do Pterodactyl
-
-```bash
-0 0 * * * php /var/www/pterodactyl/artisan p:schedule:renewal >> /dev/null 2>&1
-```
-
 ***
 
 ### Systemd Queue Worker

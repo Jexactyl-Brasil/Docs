@@ -70,10 +70,6 @@ O Botão "Gerar Token" não funciona nesse caso, faça isso manualmente
 nano /etc/pterodactyl/config.yml
 ```
 
-:::danger Aviso
-O Botão "Gerar Token" não funciona nesse caso, faça isso manualmente
-:::
-
 ### Iniciando Wings
 
 Para iniciar o Wings, basta executar o comando abaixo, que o iniciará em um modo de depuração. Depois de confirmar que ele está sendo executado sem erros, use `CTRL + C` para encerrar o processo e daemonizá-lo seguindo as instruções abaixo. Dependendo da conexão de internet do seu servidor, puxar e iniciar o Wings pela primeira vez pode levar alguns minutos.
