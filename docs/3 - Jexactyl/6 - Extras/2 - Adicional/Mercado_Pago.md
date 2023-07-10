@@ -67,7 +67,13 @@ nano .env
 Certifique-se de que a configuração 'Mercado Pago' esteja definida como 'Habilitado'.
 :::
 
-![image](https://github.com/Next-Panel/Docs/assets/30575805/0a52d5d2-dce4-45f6-b3ae-f063ab573858)
+![image](https://github.com/Next-Panel/Docs/assets/30575805/a2041795-d1af-4822-a2fe-cb0a2c6e66d7)
+
+Scrolle o navegador para baixo e salve as alterações:
+
+![image](https://github.com/Next-Panel/Docs/assets/30575805/f46a2927-1197-4082-8709-74147f2dcb34)
+
+
 
 ### 7. Teste sua configuração
 
