@@ -9,9 +9,9 @@ sidebar_position: 2
 Mostraremos nesse guia como fazer as configurações para começar a utilizar o Mercado Pago
 para processar as compras de forma prática e segura.
 
-:::danger
-Este metodo de pagamento foi implementado na `v3.8.4`. Verifique se você está executando esta versão
-ou a mais recente para usar o sistema do Mercado Pago.
+:::danger Aviso:
+Este metodo de pagamento é `Exclusivo` da Nextpanel e foi implementado na `v3.8.4`.
+Verifique se você está executando esta versão ou a mais recente para usar o sistema do Mercado Pago.
 :::
 
 ***
