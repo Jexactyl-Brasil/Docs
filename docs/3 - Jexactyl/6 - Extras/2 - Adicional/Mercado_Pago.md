@@ -19,20 +19,18 @@ Verifique se você está executando esta versão ou a mais recente para usar o s
 
 ### Obtenha o Access Token
 
-Você precisará primeiro criar um novo 'App' com o Mercado Pago para obter um Access Token
+Você precisará primeiro criar uma nova 'Aplicação' com o Mercado Pago para obter um Access Token
 para usar no Jexactyl.
 
 ***
 
-### 1. Faça login no portal do desenvolvedor do Mercado Pago
-
-URL: https://www.mercadopago.com.br/developers/panel/app
+### 1. Faça login no [portal do desenvolvedor](https://www.mercadopago.com.br/developers/panel/app) do Mercado Pago
 
 Caso não tenha conta no Mercado Pago, [Crie uma Conta](https://www.mercadopago.com.br/hub/registration/landing)
 
 ![image](https://github.com/Next-Panel/Docs/assets/30575805/1183ce43-04e1-492f-bfc3-f0c678ab2865)
 
-### 2. Vá para o painel e crie um novo aplicativo em [Suas integrações](https://www.mercadopago.com.br/developers/panel/app)
+### 2. Vá para o painel e crie uma nova aplicação em [Suas integrações](https://www.mercadopago.com.br/developers/panel/app)
 
 ![image](https://github.com/Next-Panel/Docs/assets/30575805/510bfa90-55e1-4b79-a55b-dca398ce374e)
 
