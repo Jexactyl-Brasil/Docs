@@ -40,11 +40,10 @@ Caso não tenha conta no Mercado Pago, [Crie uma Conta](https://www.mercadopago.
 ![image](https://github.com/Next-Panel/Docs/assets/30575805/33673f6c-605b-482d-87a9-f73f939bc483)
 
 
-### 4. Obtenha o Access Token do cliente na barra lateral da aplicação
+### 4. Obtenha o Access Token
 
-![image](https://github.com/Next-Panel/Docs/assets/30575805/242539fc-f7c5-4413-8522-0de9e00ed540)
+![image](https://github.com/Next-Panel/Docs/assets/30575805/83d4d56b-6cd7-4a6c-a647-113b57d5f873)
 
-![image](https://github.com/Next-Panel/Docs/assets/30575805/3822c119-632d-46e1-8847-8fbe240ed905)
 
 ![image](https://github.com/Next-Panel/Docs/assets/30575805/b072392a-316b-4f13-a629-3ba203d9633c)
 
