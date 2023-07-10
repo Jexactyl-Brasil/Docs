@@ -11,6 +11,7 @@ para processar as compras de forma prática e segura.
 
 :::danger Aviso:
 Este metodo de pagamento é `Exclusivo` da Nextpanel e foi implementado na `v3.8.4`.
+
 Verifique se você está executando esta versão ou a mais recente para usar o sistema do Mercado Pago.
 :::
 
