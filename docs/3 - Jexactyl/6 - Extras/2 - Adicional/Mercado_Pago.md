@@ -24,7 +24,7 @@ para usar no Jexactyl.
 
 ***
 
-### 1. Faça login no console do desenvolvedor do Mercado Pago
+### 1. Faça login no portal do desenvolvedor do Mercado Pago
 
 URL: https://www.mercadopago.com.br/developers/panel/app
 
