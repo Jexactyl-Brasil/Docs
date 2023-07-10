@@ -51,7 +51,7 @@ Caso não tenha conta no Mercado Pago, [Crie uma Conta](https://www.mercadopago.
 ***
 
 ### 5. Adicionar Access Token do Cliente ao Jexactyl
-Em seguida, você precisará colocar essas chaves em seu arquivo `.env` para permitir o login do Jexactyl.
+Em seguida, você precisará colocar o Access Token em seu arquivo `.env` para permitir que o Jexactyl faça login.
 
 ```bash
 cd /var/www/jexactyl
