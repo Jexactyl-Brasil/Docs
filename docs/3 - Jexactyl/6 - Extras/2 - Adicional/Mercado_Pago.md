@@ -34,7 +34,7 @@ Caso não tenha conta no Mercado Pago, [Crie uma Conta](https://www.mercadopago.
 
 ![image](https://github.com/Next-Panel/Docs/assets/30575805/510bfa90-55e1-4b79-a55b-dca398ce374e)
 
-### 3. Crie seu aplicativo do Mercado Pago
+### 3. Preencha as informações da sua aplicação da seguinte forma:
 
 ![image](https://github.com/Next-Panel/Docs/assets/30575805/33673f6c-605b-482d-87a9-f73f939bc483)
 
