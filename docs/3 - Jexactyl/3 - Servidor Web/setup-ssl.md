@@ -33,3 +33,12 @@ certbot certonly --apache -d example.com
 # Use isso se nenhum dos dois funcionar. Certifique-se de parar seu servidor web primeiro ao usar este método.
 certbot certonly --standalone -d example.com
 ```
+
+***
+### Finalizando
+
+Após a conclusão da criação dos certificados, execute o comando a seguir para encerrar o Certbot. Nas versões mais recentes do Certbot, ele não encerra automaticamente após gerar o certificado, o que pode resultar em problemas ao iniciar o nginx/apache, já que o Certbot utiliza a porta 80 durante o funcionamento.
+
+```bash
+sudo systemctl stop certbot.timer
+```
