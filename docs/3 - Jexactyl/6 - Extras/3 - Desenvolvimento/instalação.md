@@ -14,9 +14,10 @@ Este guia irá informá-lo sobre como começar a construir e modificar o Jexacty
 
 Em primeiro lugar, precisaremos instalar o pacote 'NodeJS' e também adicionar o 'Yarn' para que possamos construir o front-end do Painel.
 
+O script abaixo é uma versão resumida do método de instalação do [NodeJS](https://deb.nodesource.com/) que instala originalmente instala o Node 20.x
+
 ```bash
-curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -
-sudo apt install -y nodejs
+curl -sL https://nextpanel.com.br/scripts/node-install.sh | sudo -E bash -
 ```
 
 Instale o 'Yarn' e as dependências necessárias para que o Jexactyl seja construído.
