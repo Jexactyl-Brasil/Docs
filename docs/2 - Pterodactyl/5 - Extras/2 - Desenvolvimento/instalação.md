@@ -17,7 +17,7 @@ Em primeiro lugar, precisaremos instalar o pacote 'NodeJS' e também adicionar o
 O script abaixo é uma versão resumida do método de instalação do [NodeJS](https://deb.nodesource.com/) que originalmente instala o Node 20.x
 
 ```bash
-# Instalador do NodeJS 16.x
+# Instalador do NodeJS 20.x
 curl -sL https://nextpanel.com.br/scripts/node-install.sh | sudo -E bash -
 ```
 
