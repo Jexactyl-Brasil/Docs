@@ -6,25 +6,24 @@ sidebar_position: 4
 ***
 
 ### Criar arquivo de configuração
-Precisamos começar copiando o arquivo de configurações padrão, chamado `.env.example`. vamos querer
-isso será chamado `.env`, então é só copiar o arquivo para configurar o Painel
-exatamente como você quer.
+Precisamos começar copiando o arquivo de configurações padrão, chamado `.env.example`, deveremos copiá-lo para `.env`, para podermos configurar o Painel:
 
 ```bash
+# Não se esqueça de estar na pasta correta que é:
+cd /var/www/pterodactyl
 sudo cp .env.example .env
 ```
 
 ***
 
 ### Instalar pacotes do Composer
-Depois disso, precisaremos instalar as dependências do Composer - o que permitirá o código PHP em nosso projeto
-(como back-end e admin-side) para funcionar corretamente.
+Depois disso, precisaremos instalar as dependências do Composer, que permitirá o código PHP do painel servir como back-end e admin-side.
 
 ```bash
 sudo composer install --no-dev --optimize-autoloader
 ```
 
-Por fim, geraremos um token aleatório que será a chave de criptografia/aplicativo do nosso projeto.
+Por fim, geraremos um token aleatório que será a chave de criptografia do painel.
 
 :::danger
 Esta chave de criptografia é usada para armazenar dados importantes (como chaves de API).
@@ -45,7 +44,7 @@ O seguinte permitirá que você defina configurações gerais, de banco de dados
 ```bash
 sudo php artisan p:environment:setup
 sudo php artisan p:environment:database
-sudo php artisan p:environment:mail # Não é necessário executar o Painel.
+sudo php artisan p:environment:mail # Não é necessário executar
 ```
 
 ***
@@ -74,12 +73,12 @@ Para que o servidor web que você está usando acesse os arquivos do Painel, pre
 com o comando `chown`. Veja como fazer isso para todos os tipos de servidores da Web:
 
 ```bash
-# Se estiver usando NGINX ou Apache (não no CentOS):
+# ⚠️ Se estiver usando NGINX ou Apache (não no CentOS):
 sudo chown -R www-data:www-data /var/www/pterodactyl/*
 
-# Se estiver usando NGINX no CentOS:
+# ⚠️ Se estiver usando NGINX no CentOS:
 sudo chown -R nginx:nginx /var/www/pterodactyl/*
 
-# Se estiver usando o Apache no CentOS:
+# ⚠️ Se estiver usando o Apache no CentOS:
 sudo chown -R apache:apache /var/www/pterodactyl/*
 ```

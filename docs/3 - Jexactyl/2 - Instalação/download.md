@@ -21,7 +21,7 @@ cd /var/www/jexactyl
 
 ### Baixar o Painel
 
-Depois de entrar neste diretório, você pode `curl` (baixar) a versão mais recente para sua máquina.
+Depois de entrar neste diretório, você pode `curl` para baixar a versão mais recente do painel para sua máquina.
 Então, você pode extraí-lo usando o comando `tar` e atribuir permissões usando `chmod`. Atribuímos permissões
 para os diretórios `storage/*` e `bootstrap/cache` para permitir que o site armazene objetos em cache e carregue mais rápido.
 
