@@ -12,7 +12,7 @@ Seu próximo Painel está aqui
 - Somos uma equipe organização criada com varios objetivos. Sendo principalmente traduzir alguns projetos para a língua portuguesa.
 
 
-## Principais Projetos
+## Principais Projetos.
 
 
 | Instalação do Jexactyl - Traduzido para Português |
