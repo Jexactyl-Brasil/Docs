@@ -35,25 +35,25 @@ versões de prévia do Ubuntu, não terão todos os pacotes necessários!
 :::
 
 ```bash
-# ✅ Adicionar o comando "add-apt-repository
+#  Adicionar o comando "add-apt-repository
 apt -y install software-properties-common curl apt-transport-https ca-certificates gnupg
 
-# ✅ Adicionar repositórios adicionais para PHP, Redis e MariaDB
+#  Adicionar repositórios adicionais para PHP, Redis e MariaDB
 LC_ALL=C.UTF-8 add-apt-repository -y ppa:ondrej/php
 
-# ✅ Adicionar o repositório APT oficial do Redis
+#  Adicionar o repositório APT oficial do Redis
 curl -fsSL https://packages.redis.io/gpg | sudo gpg --dearmor -o /usr/share/keyrings/redis-archive-keyring.gpg
 echo "deb [signed-by=/usr/share/keyrings/redis-archive-keyring.gpg] https://packages.redis.io/deb $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/redis.list
 
 # ⚠️ O comando abaixo não é necessário se você estiver usando o Ubuntu 22 ou superior, caso estejá usando Debian, pesquise qual versão o Ubunto 22 ou superior se baseia
 curl -sS https://downloads.mariadb.com/MariaDB/mariadb_repo_setup | sudo bash
 
-# ✅ Atualizar a lista de repositórios
+#  Atualizar a lista de repositórios
 apt update
 
-# ✅ Instalar dependências
+#  Instalar dependências
 apt -y install php8.1 php8.1-{common,cli,gd,mysql,mbstring,bcmath,xml,fpm,curl,zip} mariadb-server nginx tar unzip git redis-server
 
-# ✅ Instalando o Compositor
+#  Instalando o Compositor
 curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer
 ```
