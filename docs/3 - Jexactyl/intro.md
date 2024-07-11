@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Introdução do Painel
 
-[![Logo Image](https://cdn.discordapp.com/attachments/1012411945141424218/1012430446556090468/JexactylBannerBasic.jpg)](https://jexactylbrasil.ml)
+[![Logo Image](https://cdn.discordapp.com/attachments/1012411945141424218/1012430446556090468/JexactylBannerBasic.jpg)](https://nextpanel.com.br/)
 
 <h1 align="center">Jexactyl</h1>
 <h5 align="center">

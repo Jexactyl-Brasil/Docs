@@ -17,7 +17,7 @@ Seu próximo Painel está aqui
 
 | Instalação do Jexactyl - Traduzido para Português |
 |--------------------------------------------------------------------------------------------------------------------------------------------------|
-|[![Logo Image](https://cdn.discordapp.com/attachments/1012411945141424218/1012430446556090468/JexactylBannerBasic.jpg)](https://jexactylbrasil.ml/docs/category/Jexactyl)|
+|[![Logo Image](https://raw.githubusercontent.com/Next-Panel/.github/main/profile/image/jexactyl-banner.jpeg)](https://nextpanel.com.br//docs/category/Jexactyl)|
 
 | Informações |
 |-------------------------------------|
@@ -42,7 +42,7 @@ Seu próximo Painel está aqui
 
 | Instalação do Pterodactyl - Traduzido para Português |
 |--------------------------------------------------------------------------------------------------|
-|[![Logo Image](https://cdn.pterodactyl.io/logos/new/pterodactyl_logo.png)](https://jexactylbrasil.ml/docs/category/pterodactyl)|
+|[![Logo Image](https://cdn.pterodactyl.io/logos/new/pterodactyl_logo.png)](https://nextpanel.com.br//docs/category/pterodactyl)|
 
 | Informações |
 |-------------------------------------|
