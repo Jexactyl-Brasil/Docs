@@ -72,13 +72,23 @@ sudo php artisan p:user:make
 Para que o servidor web que você está usando acesse os arquivos do Painel, precisamos atribuir permissões a ele
 com o comando `chown`. Veja como fazer isso para todos os tipos de servidores da Web:
 
-```bash
-# ⚠️ Se estiver usando NGINX ou Apache (não no CentOS):
-sudo chown -R www-data:www-data /var/www/pterodactyl/*
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import Codeblock from "@theme/CodeBlock";
 
-# ⚠️ Se estiver usando NGINX no CentOS:
+<Tabs>
+  <TabItem value="Ubuntu-Debian" label="Ubuntu/Debian">
+    <Codeblock language="bash">
+{`# ⚠️ Funciona tanto para nginx quando para apache
+sudo chown -R www-data:www-data /var/www/pterodactyl/*`}
+    </Codeblock>
+  </TabItem>
+<TabItem value="CentOS" label="CentOS">
+    <Codeblock language="bash">
+{`# ⚠️ Se estiver usando NGINX
 sudo chown -R nginx:nginx /var/www/pterodactyl/*
-
-# ⚠️ Se estiver usando o Apache no CentOS:
-sudo chown -R apache:apache /var/www/pterodactyl/*
-```
+# ⚠️ Se estiver usando APACHE
+sudo chown -R apache:apache /var/www/pterodactyl/*`}
+    </Codeblock>
+  </TabItem>
+</Tabs>

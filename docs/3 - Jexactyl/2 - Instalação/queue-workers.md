@@ -37,6 +37,7 @@ Agora criaremos um arquivo chamado `panel.service` na pasta /etc/systemd/system/
 ```bash
 sudo nano /etc/systemd/system/panel.service
 ```
+
 Após isso, cole o texto abaixo dentro do arquivo que acabamos de criar.
 
 ```bash

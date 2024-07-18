@@ -21,7 +21,7 @@ Feito isso, podemos fazer nossa configuração para o Pterodactyl rodar.
 
 :::danger
 Certifique-se de substituir `<domain>` pelo seu próprio domínio neste arquivo de configuração.
-Observe também que esta configuração é para Apache com SSL ativado.
+Observe também que esta configuração é para Apache com ou sem SSL ativado.
 Se você deseja usar o NGINX como um servidor web ou não deseja usar SSL, consulte
 às instruções do outro servidor web.
 :::

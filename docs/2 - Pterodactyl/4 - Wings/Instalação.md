@@ -129,7 +129,7 @@ Alternativamente, você pode clicar no botão Gerar Token, copiar o comando bash
 ![imagem de exemplo de configuração de Wings](https://user-images.githubusercontent.com/30575805/208731635-7873f964-fb97-410b-b643-ef6f1104d8d4.png)
 
 :::danger Quando seu Painel estiver usando SSL
-As Wings também devem ter uma criada para seu FQDN. Consulte a página de documentação [Configurar SSL](/docs/2%20-%20Pterodactyl/3%20-%20Servidor%20Web/setup-ssl.md) para saber como criar esses certificados antes de continuar.
+As Wings também devem ter uma criada para seu FQDN. Consulte a página de documentação [Configurar SSL](/docs/2%20-%20Pterodactyl/3%20-%20Servidor%20Web/setup-ssl.mdx) para saber como criar esses certificados antes de continuar.
 :::
 
 ### Iniciando Wings
@@ -146,6 +146,10 @@ Opcionalmente, você pode adicionar o sinalizador `--debug` para executar o Wing
 
 Executar Wings em segundo plano é uma tarefa simples, apenas certifique-se de que ele é executado sem erros antes de fazer
 este. Coloque o conteúdo abaixo em um arquivo chamado `wings.service` no diretório `/etc/systemd/system`.
+
+```bash
+sudo nano /etc/systemd/system/wings.service
+```
 
 ```text
 [Unit]

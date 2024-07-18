@@ -6,8 +6,8 @@ sidebar_position: 3
 
 ***
 
-> O Pterodactyl recomenda enfaticamente que você use SSL para proteger seu site.
-Considere habilitar o SSL seguindo o guia [Configurando o SSL](/docs/2%20-%20Pterodactyl/3%20-%20Servidor%20Web/setup-ssl.mdx).
+> O Jexactyl recomenda enfaticamente que você use SSL para proteger seu site.
+Considere habilitar o SSL seguindo o guia [Configurando o SSL](/docs/3%20-%20Jexactyl/3%20-%20Servidor%20Web/setup-ssl.mdx).
 
 
 import Tabs from '@theme/Tabs';
@@ -22,7 +22,7 @@ Em primeiro lugar, vamos remover a configuração padrão do Apache do seu servi
 a2dissite 000-default.conf
 ```
 
-Feito isso, podemos fazer nossa configuração para o Pterodactyl rodar.
+Feito isso, podemos fazer nossa configuração para o jexactyl rodar.
 
 ***
 
@@ -39,20 +39,20 @@ Se você deseja usar o Nginx ou caddy como um servidor web ou não deseja usar S
 Nota: Ao usar o Apache, certifique-se de ter o pacote **`libapache2-mod-php`** instalado ou então o PHP não será exibido em seu servidor web.
 :::
 
-Faça um arquivo chamado `pterodactyl.conf` em `/etc/apache2/sites-available` e insira o seguinte:
+Faça um arquivo chamado `panel.conf` em `/etc/apache2/sites-available` e insira o seguinte:
 
 ```bash
-sudo nano /etc/apache2/sites-available/pterodactyl.conf
+sudo nano /etc/apache2/sites-available/panel.conf
 ```
 
 Após isso, cole **UMA DAS CONFIGURAÇÕES ABAIXO** dentro do arquivo que acabamos de criar.
 
 <Tabs>
   <TabItem value="apache-ssl" label="Com SSL">
-    <ApacheSSL/>
+    <ApacheSSL jex={true}/>
   </TabItem>
   <TabItem value="apache-nossl" label="Sem SSL">
-    <ApacheNoSSL/>
+    <ApacheNoSSL jex={true}/>
   </TabItem>
 </Tabs>
 
@@ -63,22 +63,22 @@ Após isso, cole **UMA DAS CONFIGURAÇÕES ABAIXO** dentro do arquivo que acabam
 
 Em primeiro lugar, vamos vincular o arquivo que criamos ao diretório que o Apache usa para as configurações.
 ```bash
-ln -s /etc/apache2/sites-available/pterodactyl.conf /etc/apache2/sites-enabled/pterodactyl.conf
+ln -s /etc/apache2/sites-available/panel.conf /etc/apache2/sites-enabled/panel.conf
 ```
 
-Em seguida, aplicaremos as configurações que o Apache precisa para hospedar o Pterodactyl.
+Em seguida, aplicaremos as configurações que o Apache precisa para hospedar o Jexactyl.
 ```bash
 sudo a2enmod rewrite
 # Caso esteja usando SSL
 sudo a2enmod ssl
 ```
 
-Por fim, reiniciaremos o Apache para colocar o Pterodactyl online.
+Por fim, reiniciaremos o Apache para colocar o Jexactyl online.
 ```bash
 systemctl restart apache2
 ```
 
 :::info Parabéns! 
-Pterodactyl está instalado e deve estar funcionando normalmente.
+O Jexactyl está instalado e deve estar funcionando normalmente.
 Se você encontrar algum problema, informe-nos em nosso [Discord](https://discord.gg/8r7n7mU33R).
 :::

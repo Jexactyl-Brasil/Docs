@@ -1,0 +1,69 @@
+---
+sidebar_position: 4
+---
+
+# Usando Caddy
+
+***
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import { CaddyNoSSL, CaddySSL } from '@site/src/components/Pages/Caddy';
+
+***
+
+### Remova a configuração padrão
+
+Em primeiro lugar, vamos remover a configuração Caddy padrão do seu servidor.
+
+```bash
+rm /etc/caddy/Caddyfile
+```
+
+Feito isso, podemos fazer nossa configuração para o Jexactyl rodar.
+
+***
+
+### Criar arquivo de configuração
+
+:::danger
+Certifique-se de substituir `<domain>` pelo seu próprio domínio neste arquivo de configuração.
+Observe também que esta configuração é para Caddy com ou sem SSL ativado.
+Se você deseja usar o Nginx ou Apache como servidor web ou não deseja usar SSL, consulte
+às instruções do outro servidor web.
+:::
+
+Faça um arquivo chamado `Caddyfile` em `/etc/caddy`:
+
+```bash
+nano /etc/caddy/Caddyfile
+```
+
+Após isso, cole **UMA DAS CONFIGURAÇÕES ABAIXO** dentro do arquivo que acabamos de criar.
+
+<Tabs>
+  <TabItem value="Caddy-ssl" label="Com SSL">
+    <CaddySSL jex={true}/>
+  </TabItem>
+  <TabItem value="Caddy-nossl" label="Sem SSL">
+    <CaddyNoSSL jex={true}/>
+  </TabItem>
+</Tabs>
+
+***
+
+:::warning Aviso
+Se você estiver usando o Cloudflare DNS no modo proxy, consulte este [**tutorial**](https://pterodactyl.io/tutorials/creating_ssl_certificates.html#method-3:-caddy-(using-cloudflare-api)) para ver como para configurar o Caddy para usar o desafio DNS para obter certificados SSL.
+:::
+
+### Ativando a Configuração
+
+Por fim, podemos reiniciar o processo do servidor Caddy para disponibilizar nosso Painel no domínio.
+```bash
+systemctl restart caddy
+```
+
+:::info Parabéns!
+Jexactyl está instalado e deve estar funcionando normalmente.
+Se você encontrar algum problema, informe-nos em nosso [Discord](https://discord.gg/8r7n7mU33R).
+:::

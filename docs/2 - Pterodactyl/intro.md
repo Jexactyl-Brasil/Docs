@@ -42,6 +42,6 @@ e há muitos outros jogos disponíveis fornecidos pela comunidade. Alguns desses
 * Xonotic
 * Starmade
 * Discord ATLBot, e outros Node.js/Python discord bots
-* [e muito mais...](https://github.com/parkervcp/eggs)
+* [e muito mais...](https://github.com/pelican-eggs/eggs)
 
 # Inicie Agora Mesmo sua instalação--->
