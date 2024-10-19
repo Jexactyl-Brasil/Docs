@@ -48,13 +48,14 @@ Seu sistema operacional pode ser diferente do que usamos para esta instalação.
 
 ```bash
 # Adicionar o comando "add-apt-repository"
-sudo apt -y install software-properties-common curl apt-transport-https ca-certificates gnupg
+sudo apt -y install software-properties-common curl apt-transport-https ca-certificates gnupg lsb-release gpg
 
 # Adicionar repositórios adicionais para PHP, Redis e MariaDB
 sudo LC_ALL=C.UTF-8 add-apt-repository -y ppa:ondrej/php
 
 # Adicionar o repositório APT oficial do Redis
 curl -fsSL https://packages.redis.io/gpg | sudo gpg --dearmor -o /usr/share/keyrings/redis-archive-keyring.gpg
+sudo chmod 644 /usr/share/keyrings/redis-archive-keyring.gpg
 echo "deb [signed-by=/usr/share/keyrings/redis-archive-keyring.gpg] https://packages.redis.io/deb $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/redis.list
 
 # ⚠️ O comando abaixo não é necessário se você estiver usando o Ubuntu 22 ou superior; caso esteja usando Debian, pesquise qual versão o Ubuntu 22 ou superior se baseia
