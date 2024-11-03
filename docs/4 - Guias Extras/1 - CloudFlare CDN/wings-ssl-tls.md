@@ -33,7 +33,7 @@ Após ja ter um node, clique nele e haverá uma guia chamada Definições. Edite
 
 ##### Porta do Daemon
 
-Altere a porta do daemon para "8433", a porta do Proxy da CloudFlare.
+Altere a porta do daemon para "8443", a porta do Proxy da CloudFlare.
 
 ##### Comunicar por SSL
 
